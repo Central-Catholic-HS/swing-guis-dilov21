@@ -1,0 +1,24 @@
+import javax.swing.JOptionPane;
+public class NamesDialog
+{
+    public static void main(String[] args)
+    {
+      String bread;
+      String meat;
+      String cheese;
+      
+      bread = JOptionPane.showInputDialog("Input type of bread for your sandwich:");
+                                          
+      meat = JOptionPane.showInputDialog("What meat would you like on the sandwich?");
+                                        
+                                        
+      cheese = JOptionPane.showInputDialog("What kind of cheese for your sandwich?");
+                                                                             
+      //Display sandwich
+      JOptionPane.showMessageDialog(null, "Your sandwich has " + bread + " bread"
+                                   + " topped with " + meat + " and " + cheese + " cheese.");
+                                   
+      System.exit(0);
+                                   
+    }
+}
